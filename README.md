@@ -1,10 +1,10 @@
 # Project Overview:
 This project is a REST API for managing user points transactions, allowing users to add, spend, and check their point balances.
 
-Please choose a folder and use the command git clone https://github.com/IanGongwer/fetch-2025.git
+Please choose a folder and use the command: git clone https://github.com/IanGongwer/fetch-2025.git
 # Prerequisites:
 ## Node.js Installation:
-If you do not have Node.js installed, please install it from Node.js official website. Choose the LTS version for stability.
+If you do not have Node.js installed, please install it from Node.js official website: https://nodejs.org/en (Choose the LTS version for stability). Follow the prompts and choose the defaults.
 After installation, verify the installation of Node.js and npm using the following commands in your terminal:
 node -v
 npm -v
@@ -16,14 +16,13 @@ npm install express
 ## Running the Application:
 - Navigate to the Project Directory
 - Open your terminal and change to the project directory where app.js is located.
-- Run the command: node app.js
-The server will start and listen on port 8000.
+- Run the command: node app.js. The server will start and listen on port 8000.
 
 ## API Endpoints:
 ### Add Points:
-Route: /add
-Method: POST
-Request Body Example:
+- Route: /add
+- Method: POST
+- Request Body Example:
 {
   "payer": "DANNON",
   "points": 5000,
@@ -31,17 +30,17 @@ Request Body Example:
 }
 
 ### Spend Points:
-Route: /spend
-Method: POST
-Request Body Example:
+- Route: /spend
+- Method: POST
+- Request Body Example:
 {
   "points": 5000
 }
 
 ### Get Points Balance:
-Route: /balance
-Method: GET
-Response Example:
+- Route: /balance
+- Method: GET
+- Response Example:
 {
   "DANNON": 1000,
   "UNILEVER": 0,
