@@ -6,7 +6,8 @@ Please choose a folder and use the command: ```git clone https://github.com/IanG
 ## Node.js Installation:
 If you do not have Node.js installed, please install it from Node.js official website: https://nodejs.org/en (Choose the LTS version for stability). Follow the prompts and choose the defaults.
 After installation, verify the installation of Node.js and npm using the following commands in your terminal:
-```node -v
+```
+node -v
 npm -v
 ```
 
