@@ -11,15 +11,15 @@ node -v
 npm -v
 ```
 
-## Install Express Framework:
-This project uses the Express framework. It should be installed in the node_modules folder automatically when you run the application. If it is not installed, you can manually install it by running:
-```npm install express```
-
 ## Running the Application:
 - Navigate to the Project Directory
 - Open your terminal and change to the project directory where app.js is located.
 - Run the command: ```node app.js```
 The server will start and listen on port 8000.
+
+## Install Express Framework:
+This project uses the Express framework. It should be installed in the node_modules folder automatically when you run the application. If it is not installed, you can manually install it by running:
+```npm install express```
 
 ## API Endpoints:
 ### Add Points:
