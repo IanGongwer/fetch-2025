@@ -1,0 +1,15 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose Node.js and Express.js because I am familiar with building REST APIs using these technologies from previous work experience. Express.js is a lightweight framework that doesn't require a lot of complexity to get started, which is super useful for this challenge! Additionally, Node.js is powerful for handling asynchronous requests, making it ideal for a backend like this.
+
+2. What are the advantages and disadvantages of your solution?
+Advantages:
+- Using a Map allows for scalable and efficient lookups and modifications.
+- With Node.js and Express.js, the solution is fairly language-agnostic, so most engineers can read and understand the codebase, even if they don’t have prior experience.
+- The design prioritizes time complexity over space complexity, leading to efficient average time complexity for operations.
+
+Disadvantages:
+- The current implementation uses in-memory storage for transactions, which is better suited for prototyping. A permanent NoSQL solution, such as MongoDB, would be more appropriate for storing transactions since all data would be lost if the backend went down and restarted.
+- This backend only supports a single user and is designed around that limitation. Modifications would be required to accommodate multiple users.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+My favorite project was a gaming server backend I created for the video game Minecraft. There’s a community of developers that use an API called Spigot, which serves as the foundation for creating these Minecraft backends. I had the chance to learn both frontend and backend development while creating a website that displays real-time data from the Minecraft game. The project was split into two components: the website/REST API and the Java Minecraft codebase. It was challenging to learn new technologies, especially the specific Spigot API and various web technologies. However, I really enjoyed my time working on the project and was fortunate enough to have around 400-500 unique players participate over the course of about two years. This experience taught me not only technical skills but also valuable lessons about system design, project management, and user engagement.
